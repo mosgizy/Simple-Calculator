@@ -3,9 +3,9 @@
 :root{
     /*background-color */
 
-    --input-background:hsl(222, 26%, 31%);
+    --body-background:hsl(222, 26%, 31%);
     --display-background:hsl(224, 36%, 15%);
-    --body-background:hsl(223, 31%, 20%);
+    --input-background:hsl(223, 31%, 20%);
 
     /* keys */
     --number-background:hsl(30, 25%, 89%);

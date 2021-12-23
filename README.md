@@ -2,6 +2,7 @@
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
+https://mosgizy.github.io/Simple-Calculator/
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
