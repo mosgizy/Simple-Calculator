@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <p class="logo">calc</p>
+      <div class="theme-changer">
+        <span class="theme-selection">theme</span>
+        <div class="radio-wrapper">
+          <div class="radio-indicator"><span>1</span> <span>2</span> <span>3</span></div>
+          <div class="radios">
+            <input type="radio" name="theme" checked class="theme0">
+            <input type="radio" name="theme" class="theme1">
+            <input type="radio" name="theme" class="theme2">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="calc-display">
+        <p class="output"></p>
+      </div>
+
+      <div class="calc-input">
+        <div class="calc-digits">
+          <div class="number input">7</div>
+          <div class="number input">8</div>
+          <div class="number input">9</div>
+          <div class="input del">del</div>
+          <div class="number input">4</div>
+          <div class="number input">5</div>
+          <div class="number input">6</div>
+          <div class="operator input plus">+</div>
+          <div class="number input">1</div>
+          <div class="number input">2</div>
+          <div class="number input">3</div>
+          <div class="operator input minus">-</div>
+          <div class="number input">.</div>
+          <div class="number input">0</div>
+          <div class="operator input divide">/</div>
+          <div class="operator input multiply">x</div>
+        </div>
+        <div class="calc-function">
+          <button class="reset input">reset</button>
+          <button class="solve operator input">=</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
